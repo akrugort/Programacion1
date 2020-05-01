@@ -1,0 +1,15 @@
+@startuml ArreglosMatrices_Ejercicio1
+
+class claseEjercicio1a{
+    -atributo: int[]
+
+    ~claseEjercicio1(int cantCeldas)
+    +desplegarArreglo(): void
+    +invertir(): void
+    +hayRepetidos(): boolean
+    +posiciones(int numero): int[]
+}
+
+
+
+@enduml
