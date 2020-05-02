@@ -1,0 +1,19 @@
+@startuml Ejercicio_6
+
+class VentasData{
+    -vendedores : String[]
+    -meses : String[]
+    -ventas : float[][]
+    +VentasData()
+    +cargarData() : void 
+    +procesarInfo() : ArrayList<Vendedor> 
+}
+
+class Vendedor{
+    -Nombre : String 
+    -ventasTotal : float 
+    -mejorVenta : float 
+    -peorVenta : float 
+}
+
+@enduml
