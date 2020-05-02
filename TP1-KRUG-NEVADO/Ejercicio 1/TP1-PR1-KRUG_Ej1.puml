@@ -1,6 +1,6 @@
 @startuml ArreglosMatrices_Ejercicio1
 
-class claseEjercicio1a{
+class claseEjercicio1{
     -atributo: int[]
 
     ~claseEjercicio1(int cantCeldas)
@@ -9,7 +9,5 @@ class claseEjercicio1a{
     +hayRepetidos(): boolean
     +posiciones(int numero): int[]
 }
-
-
 
 @enduml
