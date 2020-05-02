@@ -1,5 +1,15 @@
 @startuml Ejercicio2
 
+class Ejercicio2{
+    -Matriz: int[5][15]
+    ~Ejercicio2
+    +filasParesIguales(): int
+    +cantColumnasNumPositivos(): int
+    +sumaPositivos(): int
+    +sumaNegativos(): int
+    +menorValor(): int
+    +menorValorEnFila(): boolean[]
+}
 
 
 @enduml
