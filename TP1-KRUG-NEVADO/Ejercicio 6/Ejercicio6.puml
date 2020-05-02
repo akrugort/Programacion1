@@ -16,4 +16,6 @@ class Vendedor{
     -peorVenta : float 
 }
 
+VentasData --> Vendedor
+
 @enduml
