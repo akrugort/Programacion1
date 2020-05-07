@@ -4,7 +4,7 @@ class VentasData{
     -vendedores : String[]
     -meses : String[]
     -ventas : float[][]
-    +VentasData()
+    +Ejercicio6()    
     +cargarData() : void 
     +procesarInfo() : ArrayList<Vendedor> 
 }
