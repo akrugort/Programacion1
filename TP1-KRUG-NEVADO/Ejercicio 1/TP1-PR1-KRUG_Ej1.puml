@@ -1,7 +1,7 @@
 @startuml ArreglosMatrices_Ejercicio1
 
 class claseEjercicio1{
-    -atributo: int[]
+    -numeros: int[]
 
     ~claseEjercicio1(int cantCeldas)
     +desplegarArreglo(): void
